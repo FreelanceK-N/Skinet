@@ -1,3 +1,4 @@
+using System.Linq;
 using Core.Entities;
 using Microsoft.EntityFrameworkCore;
 
