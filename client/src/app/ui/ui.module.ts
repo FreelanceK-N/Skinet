@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ShopComponent } from './components/shop/shop.component';
+import { ShopComponent } from './components/pages/shop/shop.component';
 import { ProductComponent } from './components/product/product.component';
 
 @NgModule({
