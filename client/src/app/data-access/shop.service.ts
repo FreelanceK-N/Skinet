@@ -14,7 +14,7 @@ export class ShopService {
 
   getProducts(): Observable<Pagination<Product[]>> {
     return this.httpClient.get<Pagination<Product[]>>(
-      this.baseUrl + 'products?pageSize=6'
+      this.baseUrl + 'products?pageSize=8'
     );
   }
 }
